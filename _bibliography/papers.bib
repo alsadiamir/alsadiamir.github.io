@@ -1,115 +1,166 @@
----
----
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@Article{s22124411,
+  abbr={MDPI Sensors},
+  AUTHOR = {Al Sadi, Amir and Berardi, Davide and Callegati, Franco and Melis, Andrea and Prandini, Marco},
+  TITLE = {P4DM: Measure the Link Delay with P4},
+  JOURNAL = {Sensors},
+  VOLUME = {22},
+  YEAR = {2022},
+  NUMBER = {12},
+  ARTICLE-NUMBER = {4411},
+  URL = {https://www.mdpi.com/1424-8220/22/12/4411},
+  ISSN = {1424-8220},
+  ABSTRACT = {Network management strategies depend on a timely and accurate knowledge of the network performance measures. Among these, one of the most relevant is the delay of the links, which unfortunately is not easy to measure with accuracy, especially when considering multi-hop paths. This is a classical networking problem, for which several solutions have been proposed. Nonetheless, we argue in this manuscript that there is still some room for improving accuracy and effectiveness in the measurement. This paper proposes a new solution based on the exploitation of the P4 data plane programming language. The basic idea is to handle lightweight probe packets that are forged ad-hoc at the edge of a link and processed at the other edge. Hosts generate the probe packets that are then exploited by the P4 programs in the switches to implement the measure. This approach provides an accurate and reliable measure of the link transit time, also effective in multi-hop links. In this latter case, we show that the measurement is not influenced much by the packet loss when the network is overloaded, thus providing more reliable results with respect to more conventional tools such as the classical ping utility. The manuscript explains the proposed P4 solution; then, it provides a comparison with several other approaches found in the literature, showing that outperform most of them, and finally show the behavior of the proposed methodology when facing a multi hop network path on a congested network to prove its robustness.},
+  DOI = {10.3390/s22124411}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@INPROCEEDINGS{9482549,
+  abbr={EuCNC/6G Summit},
+  author={Al Sadi, Amir and Berardi, Davide and Callegati, Franco and Melis, Andrea and Prandini, Marco},
+  booktitle={2021 Joint European Conference on Networks and Communications \& 6G Summit (EuCNC/6G Summit)}, 
+  title={A Security Monitoring Architecture based on Data Plane Programmability}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={389-394},
+  doi={10.1109/EuCNC/6GSummit51104.2021.9482549}
 }
+  
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
+@inproceedings{gori2022metrics,
+  abbr={IEEE ISNCC},
+  title={Metrics for Cyber-Physical Security: a call to action},
+  author={Gori, Giacomo and Melis, Andrea and Rinieri, Lorenzo and Prandini, Marco and Al Sadi, Amir and Callegati, Franco},
+  booktitle={2022 International Symposium on Networks, Computers and Communications (ISNCC)},
+  pages={1--4},
+  year={2022},
+  organization={IEEE}
+}
+@inproceedings{grasselli2022industrial,
+  abbr={IEEE ISNCC},
+  title={An Industrial Network Digital Twin for enhanced security of Cyber-Physical Systems},
+  author={Grasselli, Chiara and Melis, Andrea and Rinieri, Lorenzo and Berardi, Davide and Gori, Giacomo and Al Sadi, Amir},
+  booktitle={2022 International Symposium on Networks, Computers and Communications (ISNCC)},
+  pages={1--7},
+  year={2022},
+  organization={IEEE}
+}
+@inproceedings{gori2023towards,
+  abbr={IEEE CCNC},
+  title={Towards the Creation of Interdisciplinary Consumer-Oriented Security Metrics},
+  author={Gori, Giacomo and Melis, Andrea and Berardi, Davide and Prandini, Marco and Al Sadi, Amir and Callegati, Franco},
+  booktitle={2023 IEEE 20th Consumer Communications \& Networking Conference (CCNC)},
+  pages={957--958},
+  year={2023},
+  organization={IEEE}
+}
+@inproceedings{al2023structured,
+  abbr={IEEE CCNC},
+  title={A Structured Approach to Insider Threat Monitoring for Offensive Security Teams},
+  author={Al Sadi, Amir and Berardi, Davide and Callegati, Franco and Melis, Andrea and Prandini, Marco and Tolomei, Luca},
+  booktitle={2023 IEEE 20th Consumer Communications \& Networking Conference (CCNC)},
+  pages={628--631},
+  year={2023},
+  organization={IEEE}
+}
+@inproceedings{al2023real,
+  abbr={IEEE ICIN},
+  title={Real-time Pipeline Reconfiguration of P4 Programmable Switches to Efficiently Detect and Mitigate DDoS Attacks},
+  author={Al Sadi, Amir and Savi, Marco and Berardi, Davide and Melis, Andrea and Prandini, Marco and Callegati, Franco},
+  booktitle={2023 26th Conference on Innovation in Clouds, Internet and Networks and Workshops (ICIN)},
+  pages={21--23},
+  year={2023},
+  organization={IEEE}
+}
+@article{al2023p,
+  abbr={MDPI Sensors},
+  title={P-IOTA: A Cloud-Based Geographically Distributed Threat Alert System That Leverages P4 and IOTA},
+  author={Al Sadi, Amir and Mazzocca, Carlo and Melis, Andrea and Montanari, Rebecca and Prandini, Marco and Romandini, Nicol{\`o}},
+  journal={Sensors},
+  volume={23},
   number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+  pages={2955},
+  year={2023},
+  publisher={MDPI}
 }
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
+@article{melis2023systematic,
+  abbr={IEEE Access},
+  title={A Systematic Literature Review of Offensive and Defensive Security Solutions with Software Defined Network},
+  author={Melis, Andrea and Al Sadi, Amir and Berardi, Davide and Callegati, Franco and Prandini, Marco},
+  journal={IEEE Access},
+  year={2023},
+  publisher={IEEE}
+}
+@article{gori2023graph4,
+  abbr={MDPI Future Internet},
+  title={GRAPH4: A Security Monitoring Architecture Based on Data Plane Anomaly Detection Metrics Calculated over Attack Graphs},
+  author={Gori, Giacomo and Rinieri, Lorenzo and Al Sadi, Amir and Melis, Andrea and Callegati, Franco and Prandini, Marco},
+  journal={Future Internet},
+  volume={15},
+  number={11},
+  pages={368},
+  year={2023},
+  publisher={MDPI}
+}
+@inproceedings{di2023poster,
+  abbr={ACM SIGCOMM},
   selected={true},
-  inspirehep_id = {3255}
+  title={Poster: Continual Network Learning},
+  author={Di Cicco, Nicola and Al Sadi, Amir and Grasselli, Chiara and Melis, Andrea and Antichi, Gianni and Tornatore, Massimo},
+  booktitle={Proceedings of the ACM SIGCOMM 2023 Conference},
+  pages={1096--1098},
+  year={2023}
+}
+@article{pittala2024leveraging,
+  abbr={Computer Networks},
+  selected={true},
+  title={Leveraging Data Plane Programmability to enhance service orchestration at the edge: A focus on industrial security},
+  author={Pittal{\`a}, Gaetano Francesco and Rinieri, Lorenzo and Al Sadi, Amir and Davoli, Gianluca and Melis, Andrea and Prandini, Marco and Cerroni, Walter},
+  journal={Computer Networks},
+  pages={110397},
+  year={2024},
+  publisher={Elsevier}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+
+@article{al2024unleashing,
+  abbr={IEEE TNSM},
+  selected={true},
+  title={Unleashing Dynamic Pipeline Reconfiguration of P4 Switches for Efficient Network Monitoring},
+  author={Al Sadi, Amir and Savi, Marco and Melis, Andrea and Prandini, Marco and Callegati, Franco},
+  journal={IEEE Transactions on Network and Service Management},
+  year={2024},
+  publisher={IEEE}
+}
+@article{gori2024systematic,
+  abbr={MDPI Electronics},
+  title={A Systematic Analysis of Security Metrics for Industrial Cyber--Physical Systems},
+  author={Gori, Giacomo and Rinieri, Lorenzo and Melis, Andrea and Al Sadi, Amir and Callegati, Franco and Prandini, Marco},
+  journal={Electronics},
+  volume={13},
+  number={7},
+  pages={1208},
+  year={2024},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+@inproceedings{rinieri2024network,
+  abbr={IEEE NetSoft},
+  title={In-Network Encryption for Secure Industrial Control Systems Communications},
+  author={Rinieri, Lorenzo and Iacobelli, Antonio and Al Sadi, Amir and Melis, Andrea and Callegati, Franco and Prandini, Marco},
+  booktitle={2024 IEEE 10th International Conference on Network Softwarization (NetSoft)},
+  pages={190--194},
+  year={2024},
+  organization={IEEE}
+}
+@inproceedings{iacobelli2024detection,
+  abbr={IEEE ICPS},
+  title={Detection of Ladder Logic Bombs in PLC Control Programs: an Architecture based on Formal Verification},
+  author={Iacobelli, Antonio and Rinieri, Lorenzo and Melis, Andrea and Al Sadi, Amir and Prandini, Marco and Callegati, Franco},
+  booktitle={2024 IEEE 7th International Conference on Industrial Cyber-Physical Systems (ICPS)},
+  pages={1--7},
+  year={2024},
+  organization={IEEE}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
-}
