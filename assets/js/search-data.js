@@ -45,7 +45,10 @@ ninja.data = [{
           window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
         
       },
-    },{id: "news-started-as-a-research-assistant-at-imperial-college-london-looking-forward-to-this-opportunity-smile",
+    },{id: "news-thank-you-gianni-for-the-great-website-template-pray",
+          title: 'Thank you Gianni for the great website template! :pray:',
+          description: "",
+          section: "News",},{id: "news-started-as-a-research-assistant-at-imperial-college-london-looking-forward-to-this-opportunity-smile",
           title: 'Started as a Research Assistant at Imperial College London! Looking forward to this...',
           description: "",
           section: "News",},{id: "projects-project-1",
