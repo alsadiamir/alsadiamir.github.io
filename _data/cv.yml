@@ -25,7 +25,7 @@
       institution: University of Bologna, Bologna, Italy
       year: 2022-now
       description:
-        - Enhancing network detection and prevesion using programmable data planes.
+        - Enhancing network detection and prevention using programmable data planes.
     - title: MSc Degree in Computer Science and Engineering
       institution: University of Bologna, Bologna, Italy
       year: 2019-2021
@@ -46,11 +46,12 @@
       description:
         - Carried out a project to detect pulse-wave attacks using a programmable data plane.
         - Supervised by Prof. Stefano Vissicchio.
-    - title: MSc Degree in Computer Science and Engineering
+    - title: Visiting MSc Student
       institution: University California Riverside, Riverside, California, USA
       year: 2019-2020
       description:
         - Winner of a scholarship for a semester abroad.
+        - Fully funded by <a href=https://uceap.universityofcalifornia.edu/>UCEAP</a>.
 
 - title: Awards
   type: time_table
@@ -58,7 +59,7 @@
     - title: Merit Scholarship
       year: 2023
       items:
-        -  Winner of an Italian government scholarship of 2000€ for study merits, from INPS (https://www.inps.it/).
+        -  Winner of an Italian government scholarship of 2000€ for study merits, from <a href=https://www.inps.it/>INPS</a>.
     - title: Overseas Scholarship
       year: 2019
       items:
