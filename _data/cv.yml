@@ -11,7 +11,7 @@
 - title: Work
   type: time_table
   contents:
-    - title: Research Assistant 
+    - title: Postdoctoral Researcher 
       institution: Imperial College London, London, UK
       year: 2025-now
       description:
@@ -23,9 +23,9 @@
   contents:
     - title: Ph.D. in Computer Science and Engineering
       institution: University of Bologna, Bologna, Italy
-      year: 2022-now
+      year: 2022-2025
       description:
-        - Enhancing network detection and prevention using programmable data planes.
+        - Thesis in Programmable Data Plane for Network Security.
     - title: MSc Degree in Computer Science and Engineering
       institution: University of Bologna, Bologna, Italy
       year: 2019-2021
