@@ -17,6 +17,11 @@
       description:
         - RA in User-Centred Systems’ Security/Privacy. 
         - <a href="https://netsys.doc.ic.ac.uk/">NetSys</a> group.
+        - title: <a href="https://c3infer.github.io/">C3Infer</a>
+          contents:
+            - <a href="https://www.aisi.gov.uk/grants">AISI-funded project</a> on compartmentalized, confidential, and certified AI inference for secure multi-component pipelines in TEEs and confidential VMs.
+            - Developed the <a href="https://opencca.github.io/">OpenCCA</a>-based virtualization stack, including changes across the RMM, <a href="https://www.qemu.org/">QEMU</a>, and Linux kernel to support protected inter-CVM communication and deployable <a href="https://www.arm.com/architecture/security-features/arm-confidential-compute-architecture">Arm CCA</a> artifacts.
+            - Completely developed <a href="https://arxiv.org/pdf/2603.03403">Mica</a>, a platform for attesting and enforcing trusted workflows across mutually distrustful components, currently under submission.
 
 - title: Education
   type: time_table
@@ -82,5 +87,3 @@
       items:
         - IELTS certification, Europass level C1.
         - Awarded by British Council, IDP, and Cambridge Assessment English.
-
-
