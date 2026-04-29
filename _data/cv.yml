@@ -4,24 +4,21 @@
     - name: Full Name
       value: Amir Al Sadi
     - name: Email
-      value: <a href="mailto:a.al-sadi@imperial.ac.uk">a.al-sadi@imperial.ac.uk<a>
+      value: Academic <a href="mailto:a.al-sadi@imperial.ac.uk">a.al-sadi@imperial.ac.uk</a>; private enquiries <a href="mailto:alsadi.amir@gmail.com">alsadi.amir@gmail.com</a>
     - name: Languages
       value: English, Italian
 
 - title: Work
   type: time_table
   contents:
-    - title: Postdoctoral Researcher 
+    - title: Postdoctoral Researcher, <a href="https://netsys.doc.ic.ac.uk/">NetSys</a> group
       institution: Imperial College London, London, UK
       year: 2025-now
       description:
-        - RA in User-Centred Systems’ Security/Privacy. 
-        - <a href="https://netsys.doc.ic.ac.uk/">NetSys</a> group.
-        - title: <a href="https://c3infer.github.io/">C3Infer</a>
+        - title: <a href="https://c3infer.github.io/">C3Infer</a> - built Mica, a platform for confidential and sandboxed AI workflows
           contents:
-            - <a href="https://www.aisi.gov.uk/grants">AISI-funded project</a> on compartmentalized, confidential, and certified AI inference for secure multi-component pipelines in TEEs and confidential VMs.
-            - Developed the <a href="https://opencca.github.io/">OpenCCA</a>-based virtualization stack, including changes across the RMM, <a href="https://www.qemu.org/">QEMU</a>, and Linux kernel to support protected inter-CVM communication and deployable <a href="https://www.arm.com/architecture/security-features/arm-confidential-compute-architecture">Arm CCA</a> artifacts.
-            - Completely developed <a href="https://arxiv.org/pdf/2603.03403">Mica</a>, a platform for attesting and enforcing trusted workflows across mutually distrustful components, currently under submission.
+            - <a href="https://www.aisi.gov.uk/grants">AISI-funded</a> project to run secure multi-component AI inference pipelines by restricting and attesting communication between confidential components.
+            - Designed and developed <a href="https://github.com/c3infer/c3infer/tree/master">Mica</a> across the host-to-CVM stack on <a href="https://www.arm.com/architecture/security-features/arm-confidential-compute-architecture">Arm CCA</a>, including kernel modifications, <a href="https://www.qemu.org/">QEMU</a> emulation, the secure monitor in the EL2 Arm stack, and an <a href="https://opencca.github.io/">OpenCCA</a> performance embedded board.
 
 - title: Education
   type: time_table
