@@ -21,4 +21,4 @@ I am a Postdoctoral researcher in User-Centred Systems’ Security/Privacy and p
 
 My research interests covers the intersection between <b>security</b> and <b>systems</b>. During my Ph.D., I used programmable data planes to detect Denial of Service attacks and implement in-network computing for data integrity. You can find my publications in my [Google Scholar profile](https://scholar.google.com/citations?user=TAFPIhoAAAAJ&hl=en). I now work on system compartmentalization to deploy safe and private on-device AI workloads using Trusted Execution Environments like [ARM CCA](https://www.arm.com/architecture/security-features/arm-confidential-compute-architecture).
 
-Send me an email if you want to collaborate!
+Email if you want to collaborate!
