@@ -54,16 +54,16 @@ ninja.data = [{
           title: 'I obtained my Ph.D. defending my thesis “Evolving intrusion detection and prevention with...',
           description: "",
           section: "News",},{id: "news-caec-was-accepted-to-euros-amp-amp-p-26-pdf-code",
-          title: 'CAEC was accepted to EuroS&amp;amp;amp;P ’26! PDF Code',
+          title: 'CAEC was accepted to EuroS&amp;amp;amp;P ’26!  PDF Code',
           description: "",
           section: "News",},{id: "news-agentee-was-accepted-at-euromlsys-26-pdf-code",
-          title: 'AgenTEE was accepted at EuroMLSys ’26! PDF Code',
+          title: 'AgenTEE was accepted at EuroMLSys ’26!  PDF Code',
           description: "",
           section: "News",},{id: "news-i-will-present-c3infer-at-confad-in-oxford-on-may-8",
           title: 'I will present C3Infer at ConfAD in Oxford on May 8!',
           description: "",
           section: "News",},{id: "news-mica-was-accepted-at-acm-sigops-atc-26-to-appear-pdf-code",
-          title: 'Mica was accepted at ACM SIGOPS ATC ’26 (to appear)! PDF Code',
+          title: 'Mica was accepted at ACM SIGOPS ATC ’26 (to appear)!  PDF Code',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
@@ -115,7 +115,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%61.%61%6C-%73%61%64%69@%69%6D%70%65%72%69%61%6C.%61%63.%75%6B", "_blank");
+          window.open("mailto:%61%6C%73%61%64%69.%61%6D%69%72@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
         id: 'social-github',
