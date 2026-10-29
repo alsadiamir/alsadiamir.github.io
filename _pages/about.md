@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.imperial.ac.uk/'>Imperial College London (United Kingdom)</a>.
+subtitle: <a href='https://www.imperial.ac.uk/'>Imperial College London (United Kingdom)</a>
 
 profile:
   align: right
@@ -19,6 +19,6 @@ social: false # includes social icons at the bottom of the page
 
 I am a Postdoctoral Researcher in User-Centred Systems' Security/Privacy in Professor [Hamed Haddadi](https://haddadi.github.io/)'s [NetSys Group](https://netsys.doc.ic.ac.uk/) at the Department of Computing of Imperial College London. I obtained my Ph.D. from the University of Bologna (Italy) under the supervision of Professor [Marco Prandini](https://www.unibo.it/sitoweb/marco.prandini), working on programmable data planes for in-network security.
 
-My research sits at the intersection of <b>security</b> and <b>systems</b>. I now work on confidential computing for safe and private AI workloads, using Trusted Execution Environments such as [Arm CCA](https://www.arm.com/architecture/security-features/arm-confidential-compute-architecture). I built [MICA](https://github.com/c3infer/c3infer) (ATC '26), a confidential-computing firmware extension that lets tenants define, restrict, and attest the channels between TEEs, so that pipelines of mutually distrustful components stay confidential even when in-TEE code misbehaves. I also work on attestable communication between confidential VMs ([CAEC](https://github.com/comet-cc/CAEC), EuroS&P '26) and on running LLM agents confidentially on edge devices ([AgenTEE](https://github.com/comet-cc/AgenTEE), EuroMLSys '26).
+My research sits at the intersection of <b>security</b> and <b>systems</b>. I now work on confidential computing for safe and private AI workloads, using Trusted Execution Environments such as [Arm CCA](https://www.arm.com/architecture/security-features/arm-confidential-compute-architecture). I built [MICA](https://github.com/c3infer/c3infer) (ATC '26), a firmware extension that lets tenants define, restrict, and attest the channels between TEEs, keeping pipelines of mutually distrustful components confidential. I also worked on [CAEC](https://github.com/comet-cc/CAEC) (EuroS&P '26), which enables confidential and attestable communication between confidential VMs, and [AgenTEE](https://github.com/comet-cc/AgenTEE) (EuroMLSys '26), which runs LLM agents confidentially on edge devices.
 
-You can check my [CV]({{ '/assets/pdf/resume_infrastructure.pdf' | relative_url }}) and my publications on [Google Scholar](https://scholar.google.com/citations?user=TAFPIhoAAAAJ&hl=en). Email if you want to collaborate!
+You can check my [CV]({{ '/assets/pdf/resume_infrastructure.pdf' | relative_url }}) and my publications on [Google Scholar](https://scholar.google.com/citations?user=TAFPIhoAAAAJ&hl=en). [Email](mailto:{{ 'alsadi.amir@gmail.com' | encode_email }}) me if you want to collaborate!

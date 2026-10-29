@@ -1343,16 +1343,21 @@ ninja-keys::part(ninja-input-wrapper) {
   color: var(--global-text-color);
 }
 
-// Publication-style link buttons inside news items
-.news .links a.btn {
-  color: var(--global-text-color);
-  border: 1px solid var(--global-text-color);
-  padding: 0.1rem 0.75rem;
-  margin-left: 0.25rem;
+// PDF / Code buttons inside news items, same look as selected publications
+.news .links {
+  margin-top: 0.4rem;
 
-  &:hover {
-    color: var(--global-theme-color);
-    border-color: var(--global-theme-color);
+  a.btn {
+    color: var(--global-text-color);
+    border: 1px solid var(--global-text-color);
+    padding: 0.25rem 1rem;
+    margin-left: 0;
+    margin-right: 0.6rem;
+
+    &:hover {
+      color: var(--global-theme-color);
+      border-color: var(--global-theme-color);
+    }
   }
 }
 
