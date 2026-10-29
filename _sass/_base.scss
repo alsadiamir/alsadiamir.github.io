@@ -1342,3 +1342,30 @@ ninja-keys::part(ninja-input-wrapper) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
 }
+
+// Publication-style link buttons inside news items
+.news .links a.btn {
+  color: var(--global-text-color);
+  border: 1px solid var(--global-text-color);
+  padding: 0.1rem 0.75rem;
+  margin-left: 0.25rem;
+
+  &:hover {
+    color: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+  }
+}
+
+// Homepage: bio links
+.post article > .clearfix p a {
+  color: var(--global-theme-color);
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--global-theme-color) 35%, transparent);
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+  transition: text-decoration-color 0.15s ease;
+
+  &:hover {
+    text-decoration-color: var(--global-theme-color);
+  }
+}
